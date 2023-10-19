@@ -4,9 +4,9 @@
 一、LeS系列
 $ docker pull iwrt/openwrt-docker:LeS-x64
 # 查看镜像信息
-$ docker run --rm iwrt/openwrt-docker:LeS-x64 cat /etc/banner
+$ docker run --rm iwrt/openwrt-docker:OpR-x64 cat /etc/banner
 
-二、ImS系列
-$ docker pull iwrt/openwrt-docker:ImS-x64
+二、OpR系列
+$ docker pull iwrt/openwrt-docker:OpR-x64
 # 查看镜像信息
-$ docker run --rm iwrt/openwrt-docker:ImS-x64 cat /etc/banner
+$ docker run --rm iwrt/openwrt-docker:OpR-x64 cat /etc/banner
